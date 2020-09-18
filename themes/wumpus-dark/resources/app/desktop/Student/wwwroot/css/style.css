@@ -129,6 +129,8 @@ a {
 }
 
 .sidebar a{
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
   color: #7289DA;
 }
 
