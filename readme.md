@@ -38,7 +38,7 @@ Add screenshots of your theme to this ReadMe file.
 Create a pull request on this repo with a branch sharing the name of your theme.
 Once your theme has been approved it will be merged into the master branch.
 
-IF you haven't already setup signed commits, these look nicer :)
+If you haven't already setup signed commits, these look nicer :)
 
 Any themes that **edit any non CSS (except index.html)** files will be declined.
 
