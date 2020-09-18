@@ -6,7 +6,9 @@ This is an unofficial dark mode patch for Grande Omega. It changes and adds some
 
 **Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into**
 
-## Screenshots
+## Themes
+
+### Screenshots - Fox Dark
 
 ![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/screenshots/1.png)
 ![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/screenshots/2.png)
@@ -14,5 +16,26 @@ This is an unofficial dark mode patch for Grande Omega. It changes and adds some
 
 ## Installation
 
-Download the repo using the "**↓** Code" button and select the ZIP file. Make a **copy** of the resource folder in the Grande Omega folder. Extract the zip file **on top** of your Grande Omega directory. Replace the files you get asked to replace.
-Next time you start grande Omega it should appear in dark mode.
+Download the repo using the "**↓** Code" button and select the ZIP file.
+Make a **copy** of the resource folder in the Grande Omega folder.
+
+In the zip file go to the folder **themes** and pick a theme you want to use.
+
+Extract the contents of the theme folder from the zip file **on top** of your Grande Omega directory.
+
+Replace the files you get asked to replace.
+Next time you start grande Omega it should appear in your chosen theme.
+
+To change theme, restore the recourse folder from the copy you made and repeat the installation steps.
+
+## Contributing
+
+Clone the repo with GIT.
+
+Create your own theme by making a folder for your theme in the themes folder.
+Add screenshots of your theme to this ReadMe file.
+
+Create a pull request on the repo with a branch sharing the name of your theme.
+Once your theme has been approved it will be merged into the master branch.
+
+Any themes that **edit any non CSS (except index.html)** files will be declined.
