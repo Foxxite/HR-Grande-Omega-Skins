@@ -30,12 +30,12 @@ To change theme, restore the recourse folder from the copy you made and repeat t
 
 ## Contributing
 
-Clone the repo with GIT.
+Fork this repo and clone it to your workspace.
 
 Create your own theme by making a folder for your theme in the themes folder.
 Add screenshots of your theme to this ReadMe file.
 
-Create a pull request on the repo with a branch sharing the name of your theme.
+Create a pull request on this repo with a branch sharing the name of your theme.
 Once your theme has been approved it will be merged into the master branch.
 
 Any themes that **edit any non CSS (except index.html)** files will be declined.
