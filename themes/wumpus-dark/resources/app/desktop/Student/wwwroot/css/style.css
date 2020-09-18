@@ -227,6 +227,7 @@ a {
 
 .main-content--scroll {
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 .main-content--stretched {
