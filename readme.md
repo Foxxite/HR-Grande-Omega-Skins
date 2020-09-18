@@ -14,6 +14,11 @@ This is an unofficial dark mode patch for Grande Omega. It changes and adds some
 ![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/themes/fox-dark/screenshots/2.png)
 ![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/themes/fox-dark/screenshots/3.png)
 
+### Wumpus Dark - VAC Efron
+![](themes/wumpus-dark/screenshots/1.gif)
+![](themes/wumpus-dark/screenshots/2.png)
+![](themes/wumpus-dark/screenshots/3.png)
+
 ## Installation
 
 Download the repo using the "**↓** Code" button and select the ZIP file.
