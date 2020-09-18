@@ -109,7 +109,7 @@ a {
 }
 
 .mymain {
-	margin-top: 115px;
+	margin-top: var(--height-header);
 }
 
 .mymain__inner {
@@ -207,12 +207,21 @@ a {
 	color: #54b4ff;
 }
 
+.card {
+	margin-top: 1rem;
+}
+
 .chapter .card-title:hover {
 	text-decoration: underline;
 }
 
+.chapters-title {
+	padding-top: 1rem;
+}
+
 .main-content {
 	height: 100%;
+	margin-top: 1rem;
 }
 
 .main-content--scroll {
@@ -315,9 +324,13 @@ a {
 	height: auto;
 }
 
+.slide .slide--markdown {
+	white-space: pre-line;
+}
+
 .slide .slide--markdown div p {
 	max-width: 125ch;
-	line-height: 1.2rem;
+	line-height: 1.5rem;
 }
 
 pre {
@@ -418,14 +431,14 @@ td {
 	font-size: 23px;
 }
 .myContentClassDotted {
-	background: rgba(170, 252, 170, 0.507);
+	background: #006d32;
 	border-bottom: 2px dotted #31aa4b;
 }
 .myContentClass {
-	background: rgba(170, 252, 170, 0.507);
+	background: #006d32;
 }
 .myContentEmptyClass {
-	background: rgba(170, 252, 170, 0.507);
+	background: #006d32;
 	border-left: 2px dotted #31aa4b;
 	border-bottom: 2px dotted #31aa4b;
 }
@@ -571,7 +584,8 @@ td {
 }
 
 .custom_text_area:read-only {
-	background-color: rgb(254, 254, 254);
+	background-color: #000;
+	color: #dcdcdc;
 }
 
 .tippy-tooltip.red-theme .tippy-backdrop {
