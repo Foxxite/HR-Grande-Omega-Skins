@@ -45,21 +45,24 @@ code,
 .code {
   font-family: 'Fira Code';
   font-size: 14px;
+  color: #7289DA;
 }
 
 a {
-  color: #3b36b5;
+  color: #54b4ff;
 }
 
 .navbar {
   position: fixed;
   top: 0;
-  height: 59px;
+  height: 45px;
   width: 100%;
   z-index: 10;
-  border-top: 5px solid #21166e;
-  background: #21166e;
-  color: #fff;
+  border-top: 2px solid #7289DA;
+  background: #7289DA;
+  color: #1a1a1a;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .navbar .form-group,
@@ -69,16 +72,17 @@ a {
 
 
 .navbar__button {
-  color: white;
+  color: #1a1a1a;
   background: none;
   border: none;
   font-size: 18px;
   padding: 10px 12px;
+  margin-top: -10px;
 }
 
 .navbar__button:hover {
   color: inherit;
-  background-color: #3b36b5;
+  background-color: #667bc5;
 }
 
 .breadcrumb_red {
@@ -94,17 +98,19 @@ a {
 .breadcrumb {
   z-index: 2;
   position: fixed;
-  top: 59px;
-  height: 49px;
+  top: 45px;
+  height: 30px;
   width: 100%;
-  background: #3b36b5;
-  color: #fff;
+  background: #7f94e0;
+  color: #1a1a1a;
   border-radius: 0;
   margin-bottom: 0;
+  font-size: 16px;
+  padding: 3px 0px 4px 15px;
 }
 
 .breadcrumb a {
-  color: #fff;
+  color: #1a1a1a;
 }
 
 .mymain {
@@ -112,14 +118,20 @@ a {
 }
 
 .mymain__inner {
-  height: calc(100vh - var(--height-header));
+  height: calc(99vh - var(--height-header));
   overflow: hidden;
 }
 
 .sidebar {
-  border-right: 1px solid #e9ecef;
+  border-right: 1px solid #141414;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.sidebar a{
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  color: #7289DA;
 }
 
 .sidebar.sidebar--closed {
@@ -128,17 +140,17 @@ a {
 
 .sidebar .nav-item {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #141414;
   min-height: 80px;
   cursor: pointer;
 }
 
 .sidebar .nav-item:first-child {
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #141414;
 }
 
 .sidebar .nav-item.active {
-  background: #f0f0f0;
+  background: #404040;
 }
 
 .sidebar .nav-item.active:after {
@@ -152,17 +164,13 @@ a {
   right: -1px;
 }
 
+.sidebar .nav-item:hover{
+  background-color: #404040;
+}
+
 .sidebar .nav-link {
-  color: #444;
-  font-size: 14px;
-}
-
-.sidebar .active .nav-link {
-  color: #3b36b5;
-}
-
-.sidebar .nav-link:hover {
-  text-decoration: underline;
+  color: #fff;
+  font-size: 15px;
 }
 
 .nav-item-status {
@@ -180,11 +188,11 @@ a {
 }
 
 .nav-item__icon.oi-circle-check:before {
-  color: #025E2B;
+  color: #1ad16c;
 }
 
 .nav-item__icon.oi-circle-x:before {
-  color: #A22F02;
+  color: #ff2626;
 }
 
 .sidebar__icon--open,
@@ -202,12 +210,28 @@ a {
   text-decoration: none;
 }
 
-.chapter .card-title {
-  color: #3b36b5;
+.card-title {
+  font-size: 17px;
+  color: #6ebfff;
 }
 
-.chapter .card-title:hover {
-  text-decoration: underline;
+.chapter:hover{
+  background-color: #404040;
+  transform: translateY(-3px);
+  transition: .05s;
+}
+
+.chapters-title h5, .exams-title h5{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.chapters-title, .exams-title{
+  margin-bottom: 15px;
+}
+
+.exams-title{
+  margin-top: 25px;
 }
 
 .main-content {
@@ -310,15 +334,21 @@ a {
 }
 
 .slide--image img {
-  
+  width: 90%;
   height: auto;
+}
+
+.slide .slide--markdown div p
+{
+	max-width: 125ch;
+	line-height: 1.2rem;
 }
 
 pre {
   color: white;
   background: black;
   border: 1px solid;
-  border-color: #e83e8c;
+  border-color: #7289DA;
   padding: 10px;
 }
 
@@ -373,7 +403,7 @@ pre {
 }
 
 td {
-  border-right: 1px solid #dee2e6;
+  border-right: 1px solid #404040;
 }
 
 .heap__inner-table {
@@ -412,14 +442,14 @@ td {
   font-size: 23px;
 }
 .myContentClassDotted {
-  background: rgba(170, 252, 170, 0.507);
+  background: rgba(170, 252, 170, 0.2);
   border-bottom: 2px dotted #31aa4b;
 }
 .myContentClass {
-  background: rgba(170, 252, 170, 0.507);
+  background: rgba(170, 252, 170, 0.2);
 }
 .myContentEmptyClass {
-  background: rgba(170, 252, 170, 0.507);
+  background: rgba(170, 252, 170, 0.2);
   border-left: 2px dotted #31aa4b;
   border-bottom: 2px dotted #31aa4b;
 }
@@ -436,7 +466,7 @@ td {
   position: relative;
 }
 .myBreakPointHitClass {
-	background: rgba(250, 250, 210, 0.8);
+  background: rgba(255, 179, 39, 0.2);
 }
 
 ::-webkit-scrollbar {
@@ -566,7 +596,8 @@ td {
 }
 
 .custom_text_area:read-only {
-  background-color: rgb(254, 254, 254);
+  color: #fff;
+  background-color: #404040;
 }
 
 .tippy-tooltip.red-theme .tippy-backdrop {
@@ -586,4 +617,9 @@ body {
   font-size: 14px;
   font-family: sans-serif;
   font-weight: 700;
+}
+
+.monaco-editor
+{
+	padding-top: 5px;
 }
