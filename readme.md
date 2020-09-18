@@ -10,9 +10,9 @@ This is an unofficial dark mode patch for Grande Omega. It changes and adds some
 
 ### Screenshots - Fox Dark
 
-![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/screenshots/1.png)
-![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/screenshots/2.png)
-![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/screenshots/3.png)
+![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omega-Darkmode-Patch/master/themes/fox-dark/screenshots/1.png)
+![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/themes/fox-dark/screenshots/2.png)
+![](https://raw.githubusercontent.com/Foxxite/HR-Grande-Omage-Darkmode-Patch/master/themes/fox-dark/screenshots/3.png)
 
 ## Installation
 
