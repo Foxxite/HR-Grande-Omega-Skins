@@ -39,3 +39,7 @@ Create a pull request on the repo with a branch sharing the name of your theme.
 Once your theme has been approved it will be merged into the master branch.
 
 Any themes that **edit any non CSS (except index.html)** files will be declined.
+
+### Dev Tools
+
+To get access to the dev tools, replace the `Grande_Omega\resources\app\desktop\Student\main.js` file with the one found in the root of the repo.
