@@ -118,7 +118,7 @@ a {
 }
 
 .mymain__inner {
-  height: calc(100vh - var(--height-header));
+  height: calc(99vh - var(--height-header));
   overflow: hidden;
 }
 
