@@ -14,5 +14,5 @@ This is an unofficial dark mode patch for Grande Omega. It changes and adds some
 
 ## Installation
 
-Download the repo using the "**↓** Code" button and select the ZIP file. Extract the zip file **on top** of your Grande Omega directory. Replace the files you get asked to replace.
+Download the repo using the "**↓** Code" button and select the ZIP file. Make a **copy** of the resource folder in the Grande Omega folder. Extract the zip file **on top** of your Grande Omega directory. Replace the files you get asked to replace.
 Next time you start grande Omega it should appear in dark mode.
