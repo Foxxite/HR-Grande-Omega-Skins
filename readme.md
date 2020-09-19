@@ -36,8 +36,10 @@ Extract the contents of the theme folder from the zip file **on top** of your Gr
 
 ### Steps Auto Updater
 
-Go into the folder of you chosen theme until you find the files and folders `index.html`, 'main.js' (not always included) and wwwroot.
+Go into the folder of you chosen theme until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
 Extract these files **on top** of `Grande_Omega\tmp\`.
+
+---
 
 Replace the files you get asked to replace.
 Next time you start grande Omega it should appear in your chosen theme.
@@ -61,6 +63,9 @@ Any themes that **edit any non CSS (except index.html and main.js)** files will 
 ### Dev Tools
 
 To get access to the dev tools, replace the 
+
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\main.js` 
+
 **Auto Updater Version**: `Grande_Omega\tmp\main.js` 
+
 file with the one found in the root of the repo.
