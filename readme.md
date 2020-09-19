@@ -7,7 +7,7 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 
 **Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into.**
 
-###**You're not allowed to use any of the skins during exams / tests, make sure you have a clean copy!**
+### You're not allowed to use any of the skins during exams / tests, make sure you have a clean copy!
 
 ## Skins
 
