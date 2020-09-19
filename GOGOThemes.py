@@ -49,22 +49,19 @@ def apply(Go_Thema):
         print("rm assets")
 
     if os.path.exists("./skins/{}/wwwroot".format(Go_Thema)):
-        try:
-            fromdir = "./skins/{}/".format(Go_Thema)
-            todir = "./bin/"
-            copy_tree(fromdir, todir)
-        except:
-            print("fout met er in zetten van de files")
-    elif os.path.exists("./skins/{}/resources/app/desktop/wwwroot".format(Go_Thema)):
-        try:
-            fromdir = "./skins/{}/resources/app/desktop/".format(Go_Thema)
-            todir = "./bin/"
-            copy_tree(fromdir, todir)
+        print("main route")
+        fromdir = "./skins/{}/".format(Go_Thema)
+        todir = "./bin/"
+        copy_tree(fromdir, todir)
+    elif os.path.exists("./skins/{}/resources/app/desktop/student/wwwroot".format(Go_Thema)):
+        print("diffrent route")
+        fromdir = "./skins/{}/resources/app/desktop/student/".format(Go_Thema)
+        todir = "./bin/"
+        copy_tree(fromdir, todir)
 
-            fromdir = "./themes/"
-            copy_tree(fromdir, todir)
-        except:
-            print("fout met er in zetten van de files")
+        fromdir = "./themes/"
+        todir = "./bin/wwwroot/"
+        copy_tree(fromdir, todir)
     else:
         print("waar de fk heb je alle bestanden gelaten?")
 
@@ -80,6 +77,8 @@ frame = Frame(width=500, height=400, bg="darkgrey")
 themaH = 10
 themaW = 10
 
+l = Label(frame, text="momenteel werkt dit alleen \n op de auto-installer versie", bg="darkgrey")
+l.place(x=90, y=10)
 #thanks in een fout in tkinter doet het telkens de command voor ALLEEEN de laatste in de Array allthemes....
 for thema in allskins:
     print(thema)
