@@ -28,6 +28,7 @@ Download the repo using the "**↓** Code" button and select the ZIP file.
 Make a **copy** of the resource folder in the Grande Omega folder.
 
 Place the `themes` folder inside of
+
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
 
 **Auto Updater Version**: `Grande_Omega\tmp\wwwroot`
@@ -40,25 +41,27 @@ In the zip file go to the folder **skins** and pick a skin you want to use.
 
 ### Steps Normal Version
 
-Extract the contents of the theme folder from the zip file **on top** of your Grande Omega directory.
+Extract the contents of your chosen skin folder from the zip file **on top** of your Grande Omega directory.
 
 ### Steps Auto Updater
 
-Go into the folder of you chosen theme until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
+Go into the folder of you chosen skin until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
 Extract these files **on top** of `Grande_Omega\tmp\`.
 
 ---
 
 Replace the files you get asked to replace.
-Next time you start grande Omega it should appear in your chosen theme.
+Next time you start grande Omega it should appear in your chosen skin.
 
-To change theme, restore the recourse folder from the copy you made and repeat the installation steps.
+To change skin, restore the recourse folder from the copy you made and repeat the installation steps.
 
 ## Contributing
 
 Fork this repo and clone it to your workspace.
 
-Create your own theme by making a folder for your theme in the themes folder.
+Create your own skin by making a folder for your skin in the skins folder.
+I recommed to use Fox Dark as a starting point.
+
 Add screenshots of your theme to this ReadMe file.
 
 Create a pull request on this repo with a branch sharing the name of your theme.
@@ -66,7 +69,7 @@ Once your theme has been approved it will be merged into the master branch.
 
 If you haven't already setup signed commits, these look nicer :)
 
-Any themes that **edit any non CSS (except index.html and main.js)** files will be declined.
+Any skins that **edit any non CSS (except index.html and main.js)** files will be declined.
 
 ### Dev Tools
 
