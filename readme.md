@@ -8,8 +8,7 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 **Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into**
 **You're not allowed to use any of the thenes during exams / tests, make sure you have a clean copy!**
 
-
-## Themes
+## Skins
 
 ### Fox Dark - Foxxite
 
@@ -18,17 +17,26 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 ![](themes/fox-dark/screenshots/3.png)
 
 ### Wumpus Dark - VAC Efron
+
 ![](themes/wumpus-dark/screenshots/1.gif)
 ![](themes/wumpus-dark/screenshots/2.png)
 ![](themes/wumpus-dark/screenshots/3.png)
 
 ## Installation
 
-
 Download the repo using the "**↓** Code" button and select the ZIP file.
 Make a **copy** of the resource folder in the Grande Omega folder.
 
-In the zip file go to the folder **themes** and pick a theme you want to use.
+Place the `themes` folder inside of
+**Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
+
+**Auto Updater Version**: `Grande_Omega\tmp\wwwroot`
+
+for the code editor themes to work.
+
+## Skin Installation
+
+In the zip file go to the folder **skins** and pick a skin you want to use.
 
 ### Steps Normal Version
 
@@ -62,10 +70,10 @@ Any themes that **edit any non CSS (except index.html and main.js)** files will 
 
 ### Dev Tools
 
-To get access to the dev tools, replace the 
+To get access to the dev tools, replace the
 
-**Normal Version**: `Grande_Omega\resources\app\desktop\Student\main.js` 
+**Normal Version**: `Grande_Omega\resources\app\desktop\Student\main.js`
 
-**Auto Updater Version**: `Grande_Omega\tmp\main.js` 
+**Auto Updater Version**: `Grande_Omega\tmp\main.js`
 
 file with the one found in the root of the repo.
