@@ -28,6 +28,7 @@ Download the repo using the "**↓** Code" button and select the ZIP file.
 Make a **copy** of the resource folder in the Grande Omega folder.
 
 Place the `themes` folder inside of
+
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
 
 **Auto Updater Version**: `Grande_Omega\tmp\wwwroot`
