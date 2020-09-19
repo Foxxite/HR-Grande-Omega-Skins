@@ -26,7 +26,16 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 ## Installation
 
 Download the repo using the "**↓** Code" button and select the ZIP file.
+
 Make a **copy** of the resource folder in the Grande Omega folder.
+
+### Resource folder locations
+
+**Normal Version**: `Grande_Omega\resources`
+
+**Auto Updater Version**: `Grande_Omega\tmp`
+
+---
 
 Place the `themes` folder inside of
 
