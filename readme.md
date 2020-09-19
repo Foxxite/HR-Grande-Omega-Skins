@@ -2,10 +2,9 @@
 
 # (HR) Grande Omega Skins
 
-This is an unofficial dark mode patch for Grande Omega. It changes and adds some files to make Grande Omega appear in dark mode.
-This is a collection of unofficial skins for Grande Omega. It changes and adds some files to make Grande Omega appear in your prefered skin.
+This is a collection of unofficial skins for Grande Omega. It modifies and adds some files to make Grande Omega appear in your prefered skin.
 
-**Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into.**
+**Use at your own risk, we're not responsible for any errors, bugs, or other stuff you might run into.**
 
 ### You're not allowed to use any of the skins during exams / tests, make sure you have a clean copy!
 
@@ -27,8 +26,6 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 
 Download the repo using the "**↓** Code" button and select the ZIP file.
 
-Make a **copy** of the resource folder in the Grande Omega folder.
-
 ### Resource folder locations
 
 **Normal Version**: `Grande_Omega\resources`
@@ -37,7 +34,7 @@ Make a **copy** of the resource folder in the Grande Omega folder.
 
 ---
 
-Place the `themes` folder inside of
+Place the `themes` folder inside
 
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
 
@@ -47,11 +44,11 @@ for the code editor themes to work.
 
 ## Skin Installation
 
-In the zip file go to the folder **skins** and pick a skin you want to use.
+Navigate to the **skins** folder and pick a skin you want to use.
 
 ### Steps Normal Version
 
-Extract the contents of your chosen skin folder from the zip file **on top** of your Grande Omega directory.
+Extract the resources folder of your chosen skin **on top** of your Grande Omega directory.
 
 ### Steps Auto Updater
 
@@ -60,10 +57,10 @@ Extract these files **on top** of `Grande_Omega\tmp\`.
 
 ---
 
-Replace the files you get asked to replace.
-Next time you start grande Omega it should appear in your chosen skin.
+Replace the files you're asked to replace.
+Next time you start Grande Omega it should appear in your chosen skin.
 
-To change skin, restore the recourse folder from the copy you made and repeat the installation steps.
+To change skin, restore the resource folder from the copy you made and repeat the installation steps.
 
 ## Contributing
 
