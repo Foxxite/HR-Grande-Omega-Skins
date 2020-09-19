@@ -12,15 +12,15 @@ This is a collection of unofficial skins for Grande Omega. It changes and adds s
 
 ### Fox Dark - Foxxite
 
-![](themes/fox-dark/screenshots/1.png)
-![](themes/fox-dark/screenshots/2.png)
-![](themes/fox-dark/screenshots/3.png)
+![](skins/fox-dark/screenshots/1.png)
+![](skins/fox-dark/screenshots/2.png)
+![](skins/fox-dark/screenshots/3.png)
 
 ### Wumpus Dark - VAC Efron
 
-![](themes/wumpus-dark/screenshots/1.gif)
-![](themes/wumpus-dark/screenshots/2.png)
-![](themes/wumpus-dark/screenshots/3.png)
+![](skins/wumpus-dark/screenshots/1.gif)
+![](skins/wumpus-dark/screenshots/2.png)
+![](skins/wumpus-dark/screenshots/3.png)
 
 ## Installation
 
