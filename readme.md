@@ -5,8 +5,9 @@
 This is an unofficial dark mode patch for Grande Omega. It changes and adds some files to make Grande Omega appear in dark mode.
 This is a collection of unofficial skins for Grande Omega. It changes and adds some files to make Grande Omega appear in your prefered skin.
 
-**Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into**
-**You're not allowed to use any of the skins during exams / tests, make sure you have a clean copy!**
+**Use at your own risk, I'm not responsible for any errors, bugs, or other stuff you might run into.**
+
+###**You're not allowed to use any of the skins during exams / tests, make sure you have a clean copy!**
 
 ## Skins
 
