@@ -26,6 +26,8 @@ This is a collection of unofficial skins for Grande Omega. It modifies and adds 
 
 Download the repo using the "**↓** Code" button and select the ZIP file.
 
+Make a **copy** of the resource folder in the Grande Omega folder.
+
 ### Resource folder locations
 
 **Normal Version**: `Grande_Omega\resources`
@@ -48,12 +50,13 @@ Navigate to the **skins** folder and pick a skin you want to use.
 
 ### Steps Normal Version
 
-Extract the resources folder of your chosen skin **on top** of your Grande Omega directory.
+- Open the folder of the skin you want to use and copy the resources folder.
+- Paste the resources folder of your chosen skin **on top** of your Grande Omega directory.
 
 ### Steps Auto Updater
 
-Go into the folder of you chosen skin until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
-Extract these files **on top** of `Grande_Omega\tmp\`.
+- Go into the folder of you chosen skin until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
+- Extract these files **on top** of `Grande_Omega\tmp\`.
 
 ---
 
