@@ -50,12 +50,12 @@ for the code editor themes to work.
 
 ### Steps Normal Version
 
-- Paste the `resources` folder of your chosen skin **on top** of your Grande Omega directory.
+- Extract the `resources` folder of your chosen skin **on top** of your Grande Omega directory.
 
 ### Steps Auto Updater
 
 - Go into the folder of you chosen skin until you find the files and folders `index.html`, `main.js` (not always included) and `wwwroot`.
-- Extract these files **on top** of `Grande_Omega\tmp\`.
+- Extract these files **on top** of `Grande_Omega\bin\`.
 
 ---
 
