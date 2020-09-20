@@ -32,7 +32,7 @@ Make a **copy** of the resource folder in the Grande Omega folder.
 
 **Normal Version**: `Grande_Omega\resources`
 
-**Auto Updater Version**: `Grande_Omega\tmp`
+**Auto Updater Version**: `Grande_Omega\bin`
 
 ---
 
@@ -40,7 +40,7 @@ Place the `themes` folder inside of
 
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
 
-**Auto Updater Version**: `Grande_Omega\tmp\wwwroot`
+**Auto Updater Version**: `Grande_Omega\bin\wwwroot`
 
 for the code editor themes to work.
 
@@ -55,7 +55,7 @@ Extract the contents of your chosen skin folder from the zip file **on top** of 
 ### Steps Auto Updater
 
 Go into the folder of you chosen skin until you find the files and folders `index.html, main.js (not always included) and wwwroot`.
-Extract these files **on top** of `Grande_Omega\tmp\`.
+Extract these files **on top** of `Grande_Omega\bin\`.
 
 ---
 
@@ -107,6 +107,6 @@ To get access to the dev tools, replace the
 
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\main.js`
 
-**Auto Updater Version**: `Grande_Omega\tmp\main.js`
+**Auto Updater Version**: `Grande_Omega\bin\main.js`
 
 file with the one found in the root of the repo.
