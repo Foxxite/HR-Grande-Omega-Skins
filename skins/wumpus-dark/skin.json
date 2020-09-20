@@ -1,0 +1,12 @@
+{
+	"name": "Wumpus Dark",
+	"author": "VAC Efron",
+
+	"resourceDir": "resources/app/desktop/Student",
+	"screenshotsDir": "screenshots",
+
+	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
+	"addedFiles": ["wwwroot/css/bootstrap-dark-min.css", "wwwroot/assets/", "wwwroot/assets/background.png"],
+
+	"screenShots": ["1.gif", "2.png", "3.png"]
+}

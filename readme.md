@@ -32,7 +32,7 @@ Make a **copy** of the resource folder in the Grande Omega folder.
 
 **Normal Version**: `Grande_Omega\resources`
 
-**Auto Updater Version**: `Grande_Omega\tmp`
+**Auto Updater Version**: `Grande_Omega\bin`
 
 ---
 
@@ -40,7 +40,7 @@ Place the `themes` folder inside
 
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\wwwroot`
 
-**Auto Updater Version**: `Grande_Omega\tmp\wwwroot`
+**Auto Updater Version**: `Grande_Omega\bin\wwwroot`
 
 for the code editor themes to work.
 
@@ -69,9 +69,10 @@ To change skin, restore the resource folder from the copy you made and repeat th
 Fork this repo and clone it to your workspace.
 
 Create your own skin by making a folder for your skin in the skins folder.
-I recommed to use Fox Dark as a starting point.
+We recommend to use Fox Dark as a starting point.
 
-Add screenshots of your theme to this ReadMe file.
+Make sure to add screenshots of your theme to this ReadMe file.
+And to update the skin.json file with he correct information.
 
 Create a pull request on this repo with a branch sharing the name of your theme.
 Once your theme has been approved it will be merged into the master branch.
@@ -80,12 +81,32 @@ If you haven't already setup signed commits, these look nicer :)
 
 Any skins that **edit any non CSS (except index.html and main.js)** files will be declined.
 
+### Skin.JSON structure
+
+Make sure to remove the arrow comments or the JSON will not work
+
+```JSON
+{
+	"name": "", <-- skin name
+    	"author": "", <-- skin author
+    	"version": 1, <-- skin version
+
+	"resourceDir": "resources/app/desktop/Student", <-- location of modified files, should always be this
+	"screenshotsDir": "screenshots", <-- location of screenshots
+
+	"modifiedFiles": ["index.html", "wwwroot/css/style.css"], <-- modified files as seen from resourceDir
+	"addedFiles": ["wwwroot/css/bootstrap-dark-min.css",], <-- added files as seen from resourceDir
+
+	"screenShots": ["1.png", "2.png", "3.png"] <-- screenshot files as seen from screenshotsDir
+}
+```
+
 ### Dev Tools
 
 To get access to the dev tools, replace the
 
 **Normal Version**: `Grande_Omega\resources\app\desktop\Student\main.js`
 
-**Auto Updater Version**: `Grande_Omega\tmp\main.js`
+**Auto Updater Version**: `Grande_Omega\bin\main.js`
 
 file with the one found in the root of the repo.

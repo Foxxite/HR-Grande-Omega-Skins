@@ -1,0 +1,13 @@
+{
+	"name": "Fox Dark",
+	"author": "Foxxite",
+	"version": 1,
+
+	"resourceDir": "resources/app/desktop/Student",
+	"screenshotsDir": "screenshots",
+
+	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
+	"addedFiles": ["index_old.html", "wwwroot/css/bootstrap-dark-min.css", "wwwroot/css/style_old.css"],
+
+	"screenShots": ["1.png", "2.png", "3.png"]
+}

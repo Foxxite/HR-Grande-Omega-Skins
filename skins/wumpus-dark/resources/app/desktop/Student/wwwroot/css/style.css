@@ -158,7 +158,6 @@ a {
   display: block;
   height: calc(100% + 2px);
   width: 3px;
-  background: #3b36b5;
   position: absolute;
   top: -1px;
   right: -1px;
@@ -211,8 +210,21 @@ a {
 }
 
 .card-title {
-  font-size: 17px;
+  font-size: 20px;
   color: #6ebfff;
+}
+
+.chapters-title h5, .exams-title h5{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.chapters-title, .exams-title{
+  margin-bottom: 15px;
+}
+
+.exams-title{
+  margin-top: 20px;
 }
 
 .chapter:hover{
@@ -572,7 +584,8 @@ td {
 
 .attribute__row {
   font-family: Consolas, "Courier New", monospace;
-  font-size: 14px;
+  font-size: 16px;
+  background-color: #b3b3b3;
 }
 
 .debugger.container-fluid {
