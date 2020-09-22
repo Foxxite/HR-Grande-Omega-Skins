@@ -88,8 +88,8 @@ Make sure to remove the arrow comments or the JSON will not work
 ```JSON
 {
 	"name": "", <-- skin name
-    "author": "", <-- skin author
-    "version": 1, <-- skin version
+	"author": "", <-- skin author
+	"version": 1, <-- skin version
 
 	"resourceDir": "resources/app/desktop/Student", <-- location of modified files, should always be this
 	"screenshotsDir": "screenshots", <-- location of screenshots
