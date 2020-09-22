@@ -1,4 +1,5 @@
 @import "glyphicons";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'Fira Code';
@@ -55,14 +56,14 @@ a {
 .navbar {
   position: fixed;
   top: 0;
-  height: 45px;
+  height: 37px;
   width: 100%;
   z-index: 10;
-  border-top: 2px solid #7289DA;
+  border-top: 1px solid #7289DA;
   background: #7289DA;
   color: #1a1a1a;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 .navbar .form-group,
@@ -70,14 +71,18 @@ a {
   margin-bottom: 0;
 }
 
+.oi-x{
+  margin-right: -11px !important;
+}
 
 .navbar__button {
   color: #1a1a1a;
   background: none;
   border: none;
-  font-size: 18px;
-  padding: 10px 12px;
-  margin-top: -10px;
+  font-size: 16px;
+  padding: 6px 12px;
+  margin-top: -7px;
+  margin-left: 6px !important;
 }
 
 .navbar__button:hover {
@@ -98,15 +103,15 @@ a {
 .breadcrumb {
   z-index: 2;
   position: fixed;
-  top: 45px;
+  top: 37px;
   height: 30px;
   width: 100%;
   background: #7f94e0;
   color: #1a1a1a;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 16px;
-  padding: 3px 0px 4px 15px;
+  font-size: 15px;
+  padding: 5px 0px 4px 17px;
 }
 
 .breadcrumb a {
@@ -216,7 +221,7 @@ a {
 
 .chapters-title h5, .exams-title h5{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .chapters-title, .exams-title{
@@ -264,6 +269,10 @@ a {
   border-radius: 0;
   border: none;
   margin: 0;
+}
+
+.katex{
+  font: normal 1.13em "Montserrat", "Times New Roman", "serif" !important;
 }
 
 .code {
@@ -584,8 +593,8 @@ td {
 
 .attribute__row {
   font-family: Consolas, "Courier New", monospace;
-  font-size: 16px;
-  background-color: #b3b3b3;
+  font-size: 17px;
+  background-color: #a3a3a3;
 }
 
 .debugger.container-fluid {
