@@ -3,29 +3,21 @@ import sys, os
 from distutils.dir_util import copy_tree
 import shutil
 
-#READ ME
-#top level heb je SKINS en themes folder nodig, in de themes folder
-#zet je de json bestanden
-# in de Skins Folder zet je de folders met de skin naam eg Default met daarin het pad die uit eindelijk naar de wwwroot en index.html gaat
-
-#de non installer kan nog buggy zijn, als er problemen zijn zeg het
-
-
-if os.path.exists("./bin"):
+if os.path.exists("./bin/"):
     print("Bin found")
-    if os.path.exists("./bin/wwwroot/"):
-        print("wwwroot found")
-    if os.path.exists("./bin/index.html"):
-        print("Index.html found")
-    if os.path.exists("./bin/main.js"):
-        print("main.js found")
+    print("99% certain this is an auto")
+    version = "auto"
+elif os.path.exists("./resources/"):
+    print("99% certain this is manual")
+    version = "manual"
 else:
-    print("is dit wel de GO directory?")
+    version = "?"
 
 #checkt for skins
 if os.path.exists("./skins/"):
     print("skins found")
     allskins = (os.listdir("./skins/"))
+    print(allskins)
 else:
     print("please ensure you have a skins folder")
 
@@ -33,30 +25,22 @@ else:
 #           First test                           #
 ##################################################
 
-
+def RemovePathRecusive(path):
+    #haalt de path weg
+    if os.path.exists(path):
+        try:
+            shutil.rmtree(path)
+        except:
+            pass
+print(version + " Is this correct?")
 def apply(Go_Thema):
-    if var1.get() == 1:
-        print("going {}".format(Go_Thema))
-        # kijkt of de dir bestaat zoja remove
-        if os.path.exists("./bin/wwwroot/css/"):
-            try:
-                shutil.rmtree("./bin/wwwroot/css/")
-            except:
-                print("Error")
-            print("rm css")
-        if os.path.exists("./bin/wwwroot/themes/"):
-            try:
-                shutil.rmtree("./bin/wwwroot/themes/")
-            except:
-                print("Error")
-            print("rm themes")
-        if os.path.exists("./bin/wwwroot/assets/"):
-            try:
-                shutil.rmtree("./bin/wwwroot/assets/")
-            except:
-                print("Error")
-            print("rm assets")
-
+    print("going to apply {} skin to grand omega".format(Go_Thema))
+    if version == "?":
+        print("where is your Grand omega located?")
+    elif version == "auto":
+        RemovePathRecusive("./bin/wwwroot/css/")
+        RemovePathRecusive("./bin/wwwroot/themes/")
+        RemovePathRecusive("./bin/wwwroot/assets/")
         if os.path.exists("./skins/{}/wwwroot".format(Go_Thema)):
             print("main route")
             fromdir = "./skins/{}/".format(Go_Thema)
@@ -73,32 +57,10 @@ def apply(Go_Thema):
             copy_tree(fromdir, todir)
         else:
             print("waar de fk heb je alle bestanden gelaten?")
-            
-        #Kamikaze
-        root.destroy()
-    else:
-        if var1.get() == 0:
-            print("going {}".format(Go_Thema))
-        # kijkt of de dir bestaat zoja remove
-        if os.path.exists("./resources/app/desktop/Student/"):
-            try:
-                shutil.rmtree("/resources/app/desktop/Student/wwwroot/css/")
-            except:
-                print("Error")
-            print("rm css")
-        if os.path.exists("./resources/app/desktop/Student/themes/"):
-            try:
-                shutil.rmtree("./resources/app/desktop/Student/themes/")
-            except:
-                print("Error")
-            print("rm themes")
-        if os.path.exists("./resources/app/desktop/Student/assets/"):
-            try:
-                shutil.rmtree("./resources/app/desktop/Student/assets/")
-            except:
-                print("Error")
-            print("rm assets")
-
+    elif version == "manual":
+        RemovePathRecusive("./resources/app/desktop/Student/wwwroot/css/")
+        RemovePathRecusive("./resources/app/desktop/Student/themes/")
+        RemovePathRecusive("./resources/app/desktop/Student/assets/")
         if os.path.exists("./skins/{}/wwwroot".format(Go_Thema)):
             print("main route")
             fromdir = "./skins/{}/".format(Go_Thema)
@@ -114,12 +76,6 @@ def apply(Go_Thema):
             todir = "./skins/{}/resources/app/desktop/student/wwwroot/"
             copy_tree(fromdir, todir)
 
-        #Kamikaze
-        root.destroy()
-
-
-
-
 #innit root en frame voor root
 root = Tk()
 frame = Frame(width=500, height=400, bg="darkgrey")
@@ -130,8 +86,8 @@ themaW = 10
 l = Label(frame, text="momenteel werkt dit alleen \n op de auto-installer versie", bg="darkgrey")
 l.place(x=90, y=10)
 #thanks in een fout in tkinter doet het telkens de command voor ALLEEEN de laatste in de Array allthemes....
-for thema in allskins:
-    print(thema)
+#for thema in allskins:
+#    print(thema)
 #########################################################################################################
 #       Shit code, niet op letten, deed het eerst via een For loop alleen hayk's theme brak het telkens #
 #   TODO: Post on r/programming Horror                                                                  #
@@ -157,9 +113,6 @@ aLab.place(x=themaW, y=themaH)
 themaH += 30
 aBut = Button(frame, text=str("apply"), command=lambda:apply(allskins[2]))
 aBut.place(x=themaW, y=themaH)
-
-var1 = IntVar()
-Checkbutton(frame, text="Auto?", variable=var1).place(x=300, y=10)
 
 frame.pack()
 #dit voorkomt dat de frame geresized kan worden verkomt lelijkheid(synoniem = ik)
