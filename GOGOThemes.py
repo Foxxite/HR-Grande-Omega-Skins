@@ -3,6 +3,14 @@ import sys, os
 from distutils.dir_util import copy_tree
 import shutil
 
+#READ ME
+#top level heb je SKINS en themes folder nodig, in de themes folder
+#zet je de json bestanden
+# in de Skins Folder zet je de folders met de skin naam eg Default met daarin het pad die uit eindelijk naar de wwwroot en index.html gaat
+
+#de non installer kan nog buggy zijn, als er problemen zijn zeg het
+
+
 if os.path.exists("./bin"):
     print("Bin found")
     if os.path.exists("./bin/wwwroot/"):
