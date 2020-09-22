@@ -6,7 +6,7 @@
 	"screenshotsDir": "screenshots",
 
 	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
-	"addedFiles": ["wwwroot/css/bootstrap-dark-min.css", "wwwroot/assets/", "wwwroot/assets/background.png", "wwwroot/themes/Brilliance Black.json"],
+	"addedFiles": ["wwwroot/css/bootstrap-dark-min.css", "wwwroot/assets/", "wwwroot/assets/background.png", "wwwroot/themes/Brilliance Black.json", "wwwroot/assets/icon.png"],
 
 	"screenShots": ["1.gif", "2.png", "3.png"]
 }
