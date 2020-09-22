@@ -447,12 +447,14 @@ td {
 	color: black !important;
 	z-index: 5 !important;
 	position: relative;
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
 }
 .HiddenTestContent_no_after {
 	background: black;
 	color: black !important;
 	z-index: 5 !important;
 	position: relative;
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
 }
 .myBreakPointHitClass {
 	background: #828200;
@@ -586,6 +588,8 @@ td {
 .custom_text_area:read-only {
 	background-color: #000;
 	color: #dcdcdc;
+	height: 12rem;
+	min-height: 2rem;
 }
 
 .tippy-tooltip.red-theme .tippy-backdrop {
