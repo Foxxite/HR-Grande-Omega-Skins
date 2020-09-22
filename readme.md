@@ -46,16 +46,16 @@ for the code editor themes to work.
 
 ## Skin Installation
 
-- Navigate to the **skins** folder and pick a skin you want to use.
+-   Navigate to the **skins** folder and pick a skin you want to use.
 
 ### Steps Normal Version
 
-- Extract the `resources` folder of your chosen skin **on top** of your Grande Omega directory.
+-   Extract the `resources` folder of your chosen skin **on top** of your Grande Omega directory.
 
 ### Steps Auto Updater
 
-- Go into the folder of you chosen skin until you find the files and folders `index.html`, `main.js` (not always included) and `wwwroot`.
-- Extract these files **on top** of `Grande_Omega\bin\`.
+-   Go into the folder of you chosen skin until you find the files and folders `index.html`, `main.js` (not always included) and `wwwroot`.
+-   Extract these files **on top** of `Grande_Omega\bin\`.
 
 ---
 
@@ -88,8 +88,8 @@ Make sure to remove the arrow comments or the JSON will not work
 ```JSON
 {
 	"name": "", <-- skin name
-    	"author": "", <-- skin author
-    	"version": 1, <-- skin version
+    "author": "", <-- skin author
+    "version": 1, <-- skin version
 
 	"resourceDir": "resources/app/desktop/Student", <-- location of modified files, should always be this
 	"screenshotsDir": "screenshots", <-- location of screenshots
