@@ -244,10 +244,6 @@ a {
   margin-top: 20px;
 }
 
-.chapter{
-  width: 500px;
-}
-
 .chapter:hover{
   background-color: #404040;
   transform: translateY(-3px);
