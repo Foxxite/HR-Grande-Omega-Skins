@@ -219,7 +219,7 @@ a {
   color: #6ebfff;
 }
 
-.row:not(.nav-item){
+.row:not(.nav-item, .debugger-wrapper){
   margin-right: 150px;
   margin-left: 0px;
 }
